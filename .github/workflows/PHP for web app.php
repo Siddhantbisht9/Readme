@@ -1,0 +1,71 @@
+<?php
+// This is a basic PHP file for a simple website.
+
+$title = "My Basic PHP Website";
+$greeting = "Hello, welcome to my website!";
+
+// You can add any PHP logic here for dynamic content
+$time = date('H');  // Current hour
+
+// Simple greeting message based on time of the day
+if ($time < 12) {
+    $greeting = "Good morning! Welcome to my website.";
+} elseif ($time < 18) {
+    $greeting = "Good afternoon! Welcome to my website.";
+} else {
+    $greeting = "Good evening! Welcome to my website.";
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $title; ?></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+        }
+        main {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><?php echo $title; ?></h1>
+</header>
+
+<main>
+    <h2><?php echo $greeting; ?></h2>
+    <p>Welcome to my basic PHP website. This is a simple example to get you started.</p>
+</main>
+
+<footer>
+    <p>&copy; <?php echo date("Y"); ?> My Basic PHP Website</p>
+</footer>
+
+</body>
+</html>

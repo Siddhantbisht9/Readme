@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Siddhantbisht9
-- 👀 I am into cloud services
+- 👀 I am in cloud services
 - 🌱 I’m currently learning Terraform
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me siddhantbisht9@gmail.com
+- 💞️ I’m looking to collaborate on the services we provide on cloud
+- 📫 How to reach me-siddhantbisht9@gmail.com
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 

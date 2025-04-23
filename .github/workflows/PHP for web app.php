@@ -2,7 +2,7 @@
 // This is a basic PHP file for a simple website.
 
 $title = "My Basic PHP Website";
-$greeting = "Hello, welcome to my website!";
+$greeting = "Hello, this is Siddhant, welcome to my website!";
 
 // You can add any PHP logic here for dynamic content
 $time = date('H');  // Current hour

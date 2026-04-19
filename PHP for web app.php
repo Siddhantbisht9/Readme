@@ -1,11 +1,9 @@
 <?php
-// This is a basic PHP file for a simple website.
 
 $title = "My Basic PHP Website";
 $greeting = "Hello, welcome to my website!";
 
-// You can add any PHP logic here for dynamic content
-$time = date('H');  // Current hour
+$time = date('H');  
 
 if ($time < 12) {
     $greeting = "Good morning! Welcome to my website.";

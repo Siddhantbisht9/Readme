@@ -7,7 +7,6 @@ $greeting = "Hello, welcome to my website!";
 // You can add any PHP logic here for dynamic content
 $time = date('H');  // Current hour
 
-// Simple greeting message based on time of the day
 if ($time < 12) {
     $greeting = "Good morning! Welcome to my website.";
 } elseif ($time < 18) {
